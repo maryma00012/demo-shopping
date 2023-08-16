@@ -25,7 +25,7 @@ function App() {
     <>
     <SearchContextProvider>
         <CartContextProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/demo-shopping">
             <Nav />
             <div className="body">
               <Routes>
