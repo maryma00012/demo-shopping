@@ -1,38 +1,368 @@
-.App {
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-size: 43px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  padding: 5px;
+}
+
+
+
+.largeButton button {
+  font-size: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  min-width: 200px;
+}
+
+.largeButton button:hover {
+  background-color: white;
+  color: black;
+
+}
+
+
+.body .largeButton button:disabled {
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: default;
+}
+
+
+/* Main Nav*/
+
+.mainNav {
+  background-color: black;
+  display: flex;
+  padding: 10px 40px 10px 40px;
+  align-items: center;
+}
+
+.leftNavLogo {
+  color: white;
+  font-size: 45px;
+}
+
+.rightNav {
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.rightNav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.rightNav ul li {
+  margin: 0px 10px; 
+}
+
+.rightNav ul li button{
+  color: white;
+  background-color: transparent;
+  font-size: 25px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.rightNav .navSearch {
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  border: grey;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.rightNav .navSearch input{
+  border: none;
+}
+
+.rightNav .navSearch input:focus{
+  outline: none;
+}
+
+/* Card */
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px 50px;
+}
+
+.cardContainer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.card {
+  box-shadow: -5px 5px 20px 2px grey;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.card .thumbnailImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card .productName {
+  font-size: 20px;
+  color: black;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Movie Details */
+.productDetails {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.productDetails .productImage {
+  padding: 0px 3%;
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.productDetails .productImage img{
+  width: 100%;
+}
+
+.productDetails .productInfo {
+  width: 60%;
+}
+
+
+.productDetails .productName p{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.productDetails .productPrice p { 
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.productDetails .productDetailsDesc{
+  font-size: 20px;
+}
+
+.productDetails .updateItemBtns{
+  display: flex;
+  margin-top: 20px;
+}
+
+.productDetails .updateItemBtns > button{
+  margin: 6px;
+}
+
+.productDetails .updateItemBtns > p {
+  margin: auto 0px;
+}
+
+/* Cart */
+
+.cart .card .price {
+  font-size: 14px;
+}
+
+.cart .updateItemBtns {
+  display: flex;
+  justify-content: center;
+}
+
+.cart .updateItemBtns input {
+  text-align: center;
+
+}
+
+.cart .updateItemBtns button {
+  padding: 5px;
+}
+
+.cartTotal {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.cart .cartButtons {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .body {
+    padding: 5% 10%;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* Card */
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px 35px;
   }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+
+  /* Card */
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px 50px;
+  }
+
+  /* Movie Details */
+  .productDetails {
+    display: block;
+  }
+
+  .productDetails .productImage {
+    margin: auto;
+    width: initial;
+    padding: 0;
+  }
+
+  .productDetails .productInfo {
+    width: 100%;
+  }
+
+  .productDetails .productName p {
+    font-size: 43px;
+    margin: 15px 0 10px 0;
+  }
+
+  .productDetails .productPrice p {
+    font-size: 32px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+
+  .largeButton button {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* Main Nav */
+
+  .mainNav {
+    display: block;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .leftNavLogo {
+    font-size: 30px;
+  }
+
+  .rightNav ul {
+    position: relative;
+    display: block;
+  }
+
+  .rightNav ul .navCart{
+    position: absolute;
+    top: -45px;
+    right: 0px;
+    margin-right: 0;
+  }
+
+  .rightNav ul .navHome{
+    position: absolute;
+    top: -45px;
+    right: 50px;
+  }
+
+  .rightNav .navSearch {
+    width: 100%;
+    margin: 0px 0px;
+  }
+ 
+  /* Card */
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px 50px;
+  }
+
+  .card p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Cart */
+  .cartTotal {
+    font-size: 20px;
+  }
+
+  .cart .cartButtons {
+    margin-top: 0px;
+  }
+
+  .cart .largeButton button {
+    margin-top: 10px;
+  }
+
+  .cart .card .price {
+    font-size: 8px;
+  }
+
+    /* Movie Details */
+
+    .productDetails .productName p {
+      font-size: 27px;
+    }
+  
+    .productDetails .productPrice p {
+      font-size: 20px;
+    }
+
 }
