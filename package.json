@@ -2,7 +2,7 @@
   "name": "testing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maryma00012.github.io/demo-shopping/",
+  "homepage": "https://maryma00012.github.io/demo-shopping",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
