@@ -2,7 +2,7 @@ export const PRODUCTS = [
     {
       id: 1,
       productName: "Barbie",
-      director: "director!",
+      director: "Greta Gerwig",
       price: 999.0,
       thumbnailImage: require('../assets/barbieThumbnail.jpg'),
       derailImage: require('../assets/barbieDetail.jpg'),
@@ -10,8 +10,8 @@ export const PRODUCTS = [
     },
     {
       id: 2,
-      productName: "Captain America Winter Solidier",
-      director: "director2",
+      productName: "Captain America: The Winter Soldier",
+      director: "Anthony Russo, Joe Russo",
       price: 1999.0,
       thumbnailImage: require('../assets/captainAmericaThumbnail.jpg'),
       derailImage: require('../assets/captainAmericaDetail.jpg'),
@@ -20,7 +20,7 @@ export const PRODUCTS = [
     {
       id: 3,
       productName: "Oppenheimer",
-      director: "director2",
+      director: "Christopher Nolan",
       price: 699.0,
       thumbnailImage: require('../assets/oppenheimerThumbnail.jpg'),
       derailImage: require('../assets/oppenheimerDetail.jpg'),
@@ -29,7 +29,7 @@ export const PRODUCTS = [
     {
       id: 4,
       productName: "Taxi Driver",
-      director: "3director!",
+      director: "Martin Scorsese",
       price: 228.0,
       thumbnailImage: require('../assets/taxiDriverThumbnail.jpg'),
       derailImage: require('../assets/taxiDriverDetail.jpg'),
@@ -38,7 +38,7 @@ export const PRODUCTS = [
     {
       id: 5,
       productName: "John Wick",
-      director: "3director!",
+      director: "Chad Stahelski",
       price: 19.99,
       thumbnailImage: require('../assets/johnWickThumbnail.jpg'),
       derailImage: require('../assets/johnWickDetail.jpg'),
@@ -47,7 +47,7 @@ export const PRODUCTS = [
     {
       id: 6,
       productName: "John Wick 2",
-      director: "director!",
+      director: "Chad Stahelski",
       price: 68.0,
       thumbnailImage: require('../assets/johnWick2Thumbnail.jpg'),
       derailImage: require('../assets/johnWick2Detail.jpg'),
@@ -56,7 +56,7 @@ export const PRODUCTS = [
     {
       id: 7,
        productName: "John Wick 3",
-      director: "director!",
+      director: "Chad Stahelski",
       price: 130.0,
       thumbnailImage: require('../assets/johnWick3Thumbnail.jpg'),
       derailImage: require('../assets/johnWick3Detail.jpg'),
@@ -65,7 +65,7 @@ export const PRODUCTS = [
     {
       id: 8,
       productName: "John Wick 4",
-      director: "director!",
+      director: "Chad Stahelski",
       price: 40.0,
       thumbnailImage: require('../assets/johnWick4Thumbnail.jpg'),
       derailImage: require('../assets/johnWick4Detail.jpg'),

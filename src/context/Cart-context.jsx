@@ -30,8 +30,15 @@ export const CartContextProvider = (props) => {
     }
 
     const updateCartItem = (productId, itemQuantity) =>{
+        console.log("itemQuantity",itemQuantity)
         if(itemQuantity ===""){
             setCart((prev)=>({...prev, [productId]: ""}) )
+        }else if(parseInt(itemQuantity) === 0){
+            console.log("update to 0")
+            setCart((prev)=>{
+                const { [productId]: cartItem, ...rest} = prev;
+                return rest;})
+            console.log("cart 2 ", JSON.stringify(cart))
         }else{
             setCart((prev)=>({...prev, [productId]: parseInt(itemQuantity)} ))
         }
