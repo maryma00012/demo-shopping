@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.b25e9b84.css",
-    "main.js": "/static/js/main.35030637.js",
-    "static/media/johnWick2Detail.jpg": "/static/media/johnWick2Detail.f7c88417cce631a8c35f.jpg",
-    "static/media/johnWick3Detail.jpg": "/static/media/johnWick3Detail.17dee3d70a486f479808.jpg",
-    "static/media/taxiDriverDetail.jpg": "/static/media/taxiDriverDetail.fe7fb64a3a2cb4656e33.jpg",
-    "static/media/oppenheimerDetail.jpg": "/static/media/oppenheimerDetail.529f8f17b2ccf7f078da.jpg",
-    "static/media/johnWick3Thumbnail.jpg": "/static/media/johnWick3Thumbnail.264aa088520569eb516e.jpg",
-    "static/media/oppenheimerThumbnail.jpg": "/static/media/oppenheimerThumbnail.229feada4a0af0ab7f5f.jpg",
-    "static/media/barbieDetail.jpg": "/static/media/barbieDetail.75e7ff4cbbb3a9d3dfde.jpg",
-    "static/media/johnWick4Detail.jpg": "/static/media/johnWick4Detail.82a580774325074761e1.jpg",
-    "static/media/taxiDriverThumbnail.jpg": "/static/media/taxiDriverThumbnail.ba7a74707f6984f96e11.jpg",
-    "static/media/johnWick2Thumbnail.jpg": "/static/media/johnWick2Thumbnail.90434834674e71a40861.jpg",
-    "static/media/johnWick4Thumbnail.jpg": "/static/media/johnWick4Thumbnail.e2e8f9e53cf25a1716d5.jpg",
-    "static/media/captainAmericaThumbnail.jpg": "/static/media/captainAmericaThumbnail.6b38048b761fb11e91f5.jpg",
-    "static/media/barbieThumbnail.jpg": "/static/media/barbieThumbnail.94fb778dc2b0f64e7f97.jpg",
-    "static/media/johnWickThumbnail.jpg": "/static/media/johnWickThumbnail.1598c6d784f461a9c503.jpg",
-    "static/media/captainAmericaDetail.jpg": "/static/media/captainAmericaDetail.458c58fdb398e75ce479.jpg",
-    "static/media/johnWickDetail.jpg": "/static/media/johnWickDetail.5ed10b440aae16c0e695.jpg",
-    "index.html": "/index.html",
-    "main.b25e9b84.css.map": "/static/css/main.b25e9b84.css.map",
-    "main.35030637.js.map": "/static/js/main.35030637.js.map"
+    "main.css": "/demo-shopping/static/css/main.b25e9b84.css",
+    "main.js": "/demo-shopping/static/js/main.4abb76a5.js",
+    "static/media/johnWick2Detail.jpg": "/demo-shopping/static/media/johnWick2Detail.f7c88417cce631a8c35f.jpg",
+    "static/media/johnWick3Detail.jpg": "/demo-shopping/static/media/johnWick3Detail.17dee3d70a486f479808.jpg",
+    "static/media/taxiDriverDetail.jpg": "/demo-shopping/static/media/taxiDriverDetail.fe7fb64a3a2cb4656e33.jpg",
+    "static/media/oppenheimerDetail.jpg": "/demo-shopping/static/media/oppenheimerDetail.529f8f17b2ccf7f078da.jpg",
+    "static/media/johnWick3Thumbnail.jpg": "/demo-shopping/static/media/johnWick3Thumbnail.264aa088520569eb516e.jpg",
+    "static/media/oppenheimerThumbnail.jpg": "/demo-shopping/static/media/oppenheimerThumbnail.229feada4a0af0ab7f5f.jpg",
+    "static/media/barbieDetail.jpg": "/demo-shopping/static/media/barbieDetail.75e7ff4cbbb3a9d3dfde.jpg",
+    "static/media/johnWick4Detail.jpg": "/demo-shopping/static/media/johnWick4Detail.82a580774325074761e1.jpg",
+    "static/media/taxiDriverThumbnail.jpg": "/demo-shopping/static/media/taxiDriverThumbnail.ba7a74707f6984f96e11.jpg",
+    "static/media/johnWick2Thumbnail.jpg": "/demo-shopping/static/media/johnWick2Thumbnail.90434834674e71a40861.jpg",
+    "static/media/johnWick4Thumbnail.jpg": "/demo-shopping/static/media/johnWick4Thumbnail.e2e8f9e53cf25a1716d5.jpg",
+    "static/media/captainAmericaThumbnail.jpg": "/demo-shopping/static/media/captainAmericaThumbnail.6b38048b761fb11e91f5.jpg",
+    "static/media/barbieThumbnail.jpg": "/demo-shopping/static/media/barbieThumbnail.94fb778dc2b0f64e7f97.jpg",
+    "static/media/johnWickThumbnail.jpg": "/demo-shopping/static/media/johnWickThumbnail.1598c6d784f461a9c503.jpg",
+    "static/media/captainAmericaDetail.jpg": "/demo-shopping/static/media/captainAmericaDetail.458c58fdb398e75ce479.jpg",
+    "static/media/johnWickDetail.jpg": "/demo-shopping/static/media/johnWickDetail.5ed10b440aae16c0e695.jpg",
+    "index.html": "/demo-shopping/index.html",
+    "main.b25e9b84.css.map": "/demo-shopping/static/css/main.b25e9b84.css.map",
+    "main.4abb76a5.js.map": "/demo-shopping/static/js/main.4abb76a5.js.map"
   },
   "entrypoints": [
     "static/css/main.b25e9b84.css",
-    "static/js/main.35030637.js"
+    "static/js/main.4abb76a5.js"
   ]
 }
