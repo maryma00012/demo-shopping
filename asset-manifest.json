@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/demo-shopping/static/css/main.7212ac5f.css",
-    "main.js": "/demo-shopping/static/js/main.e903f0e4.js",
+    "main.css": "/demo-shopping/static/css/main.3b6abccf.css",
+    "main.js": "/demo-shopping/static/js/main.8d2c07fb.js",
     "static/media/johnWick2Detail.jpg": "/demo-shopping/static/media/johnWick2Detail.f7c88417cce631a8c35f.jpg",
     "static/media/johnWick3Detail.jpg": "/demo-shopping/static/media/johnWick3Detail.17dee3d70a486f479808.jpg",
     "static/media/taxiDriverDetail.jpg": "/demo-shopping/static/media/taxiDriverDetail.fe7fb64a3a2cb4656e33.jpg",
@@ -19,11 +19,11 @@
     "static/media/captainAmericaDetail.jpg": "/demo-shopping/static/media/captainAmericaDetail.458c58fdb398e75ce479.jpg",
     "static/media/johnWickDetail.jpg": "/demo-shopping/static/media/johnWickDetail.5ed10b440aae16c0e695.jpg",
     "index.html": "/demo-shopping/index.html",
-    "main.7212ac5f.css.map": "/demo-shopping/static/css/main.7212ac5f.css.map",
-    "main.e903f0e4.js.map": "/demo-shopping/static/js/main.e903f0e4.js.map"
+    "main.3b6abccf.css.map": "/demo-shopping/static/css/main.3b6abccf.css.map",
+    "main.8d2c07fb.js.map": "/demo-shopping/static/js/main.8d2c07fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7212ac5f.css",
-    "static/js/main.e903f0e4.js"
+    "static/css/main.3b6abccf.css",
+    "static/js/main.8d2c07fb.js"
   ]
 }
