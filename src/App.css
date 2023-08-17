@@ -101,6 +101,7 @@ button {
 
 .rightNav .navSearch input{
   border: none;
+  margin-left: 10px;
 }
 
 .rightNav .navSearch input:focus{
